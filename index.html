@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio Tutorial</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Mis estilos -->
+    <link href="css/estilos.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="normalize.css" rel="stylesheet">
+	<!-- Letra -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Barra Flex -->
+    <link href="css/flexslider.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+		  <!-- logoTipo -->
+	  	<div class="container">
+	  		<header>
+	  			<div class="row">
+		  			<div class="logo">
+		  				<img src="imagenes/logo.png" class="center-block">
+		  			</div>
+		  		</div>
+	
+					 		<!-- Menu -->
+					 		<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav">
+					        <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+					      
+					        <li><a href="#">Portafolio</a></li>
+					        <li><a href="#">Acerca de</a></li>
+					        <li><a href="#">Blog</a></li>
+					        <li><a href="#">Contacto</a></li>
+						        
+					          </ul>
+					        
+					      </ul>
+					    </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+  				</header>
+	  		</div>
+
+		<!-- Slider -->
+
+
+			<div class="flexslider">
+				  <ul class="slides">
+				    <li class="slider1">
+				    	<div class="container">
+				    	<div class=" imagen-slider col-sm-5 col-sm-offset-1">
+				    		<img src="imagenes/img-slider1.png" />
+				    	</div>
+					      <div class="col-sm-5">
+					      	<h3 class="titulo">Yo no se lo que es </h3>
+					      	<p class="descripcion"> Putitos todos </p>
+					      	<a href="" class="btn-slider">Ver mas ..</a>
+					      </div>
+					      </div>
+				    </li>
+
+						<!-- Segundo --> 
+
+				       <li class="slider2">
+				    	<div class="container">
+				    	<div class="imagen-slider col-sm-5 col-sm-offset-1">
+				    		<img src="imagenes/img-slider1.png" />
+				    	</div>
+					      <div class="col-sm-5">
+					      	<h3 class="titulo">Yo no se lo que es hg </h3>
+					      	<p class="descripcion"> Putitos todos kj</p>
+					      	<a href="" class="btn-slider">Ver mas ..</a>
+					      </div>
+					      </div>
+				    </li>
+				  </ul>
+			</div>
+
+			<!-- mensaje de Bienbenida  -->
+
+			<section class="bienvenida">
+				<container>
+					<h4 class="titulo-bienvenida">Bienvenido a mi sitio Web</h4>
+					<p class="mensaje-bienvenida">El amor es un concepto universal relativo a la afinidad entre seres, definido de diversas formas según las diferentes ideologías y puntos de vista (artístico, científico, filosófico, religioso). De manera habitual, y fundamentalmente en Occidente, se interpreta como un sentimiento relacionado con el afecto y el apego, y resultante y productor de una serie de actitudes, emociones y</p>
+				</container>
+			</section>
+
+			<!-- Cuerpo Home -->
+				<section class="container cuerpo-home">
+					<div class="row clearfix">
+						<div class="col-md-6"></div>
+						<div class="article articulo-home">
+							<h5>Post reciente</h5>
+							<hr>
+							<header class="titulo-post">
+								<h3><a href="">ultima Entrada</a></h3>
+							</header>
+							<ul class="info">
+								<li>Publicado en:<a href="">Blog</a></li>
+								<li>Por:<a href="">Admin</a></li>
+								<li><a href=""></a>29 de Diciembre</li>
+							</ul>
+							</div>
+						<div class="col-md-6"></div>
+					</div>
+				</section>
+			
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+
+
+		<!-- Script de Flex javascript -->
+		<script type="text/javascript" charset="utf-8">
+		  $(window).load(function() {
+		    $('.flexslider').flexslider();
+		  });
+		</script>
+
+
+  </body>
+</html>
